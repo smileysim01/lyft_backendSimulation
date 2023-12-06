@@ -16,4 +16,4 @@ class NubbinBattery(Battery):
         
 
     def needs_service(self):
-        return self.last_service_date.year - self.current_date.year > 4
+        return self.current_date.year - self.last_service_date.year > 4
